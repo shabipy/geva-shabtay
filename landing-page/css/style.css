@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Playfair+Display&display=swap');
+
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/navbar.css");
+
+body{
+  font-family: 'Playfair Display';
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+#intro img{
+
+  width:450px;
+}
+
+#our-work{
+  padding: 16px;
+  height: 100vh;
+  background-color: #F8C587;
+  overflow: hidden;
+
+}
+#more-of-our-work{
+  height: 100vh;
+  background-color: #7ccc93;
+}
+#more-of-our-work img {
+  width: 200px;
+}
+#last-of-our-work{
+  padding: 16px;
+  height: 100vh;
+  background-color: #65A7D5;
+  overflow: hidden;
+}
+#last-of-our-work img{
+  width: 600px;
+}
+
+#contact-us{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+a {
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.example-of-work{
+}
+
+.example-of-work img{
+  background-size: cover;
+  width: 80%;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.form-container{
+  background-color: #F5F5F5;
+}
+footer{
+  background-color: #F5F5F5;
+}
+
+.submit-form{
+  background-color: #F67273;
+}
+.contact-us-image{
+  width: 300px;
+  margin: 10px 30%;
+}

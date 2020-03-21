@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+.banner {
+  font-family: 'Open Sans';
+  background: rgb(247,97,96);
+  background: linear-gradient(180deg, rgba(247,97,96,1) 10%, rgba(245,115,115,1) 47%, rgba(247,97,96,1) 85%);
+  height: 100vh;
+  top: 0;
+  overflow: hidden;
+}
+.banner-content{
+  padding: 150px 0 0 0;
+
+  text-align: center;
+
+}
+.banner h1 {
+  margin: 10px auto;
+  color: #F8C587;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-banner {
+  margin-top: 10%;
+  color: #F67273;
+  font-weight: 900;
+  background-color: #F8C587;
+  transition: .5s;
+  right: 48vW;
+  position: absolute;
+  z-index: 5;
+
+}
+.btn-banner:hover {
+    color: #F67273;
+
+  opacity: 0.7;
+}
+
+.trial {
+  right:330px;
+  bottom: 1050px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+}
+.omri {
+  left: 300px;
+  bottom: 100px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .trial {
+  right:330px;
+  bottom: 1550px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+}
+.omri {
+  left: 300px;
+  bottom: 500px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+}
+}
+  @media only screen and (min-width: 768px) {
+    .trial {
+  right:330px;
+  bottom: 1050px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 800px;
+}
+.omri {
+  left: 300px;
+  bottom: 100px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+}
+
+}

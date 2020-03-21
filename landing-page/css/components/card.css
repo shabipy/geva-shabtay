@@ -1,0 +1,31 @@
+.card-user {
+  overflow: hidden;
+  height: 50vh;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  align-items: center;
+  border-radius: 4px;
+}
+
+.card-user img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-user h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-user p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-user .card-user-infos {
+  padding: 16px;
+}
