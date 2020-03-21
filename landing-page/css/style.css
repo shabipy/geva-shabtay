@@ -7,10 +7,18 @@
 @import url("components/footer.css");
 @import url("components/navbar.css");
 
+
 body{
   font-family: 'Playfair Display';
   height: 100%;
   margin: 0;
+}
+a {
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
 }
 .wrapper {
   min-height: 100%;
@@ -23,45 +31,100 @@ body{
 .push {
   height: 50px;
 }
+#intro {
+  height: 100vh;
+}
 #intro img{
 
   width:450px;
 }
 
 #our-work{
+  color: white;
   padding: 16px;
   height: 100vh;
-  background-color: #F8C587;
+  background: rgb(101,167,213);
+  background: linear-gradient(180deg, rgba(101,167,213,1) 10%, rgba(115,194,249,1) 47%, rgba(101,167,213,1) 85%);
   overflow: hidden;
-
 }
+#our-work img{
+  width: 100%;
+  display: cover;
+}
+#our-work .btn-link {
+  background-color: #42a7e5;
+  color:white;
+}
+#our-work .project-description {
+  border-radius: 3px;
+  padding: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #59aae0;
+}
+#our-work .btn-link:hover {
+  opacity: 0.7;
+  color:white;
+  text-decoration: none;
+}
+
 #more-of-our-work{
+  color: white;
   height: 100vh;
-  background-color: #7ccc93;
+  background: rgb(124,204,147);
+  background: linear-gradient(180deg, rgba(124,204,147,1) 10%, rgba(128,228,157,1) 47%, rgba(124,204,147,1) 85%);
+}
+#more-of-our-work .project-description {
+  margin: 12px;
+  height: 50%;
+  border-radius: 3px;
+  padding: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #6ae28c;
 }
 #more-of-our-work img {
   width: 200px;
 }
+#more-of-our-work .btn-link {
+  background-color: #7ccc93;
+  color:white;
+}
+#more-of-our-work .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
 #last-of-our-work{
+  color: white;
   padding: 16px;
   height: 100vh;
-  background-color: #65A7D5;
+  background: rgb(49,53,91);
+  background: linear-gradient(180deg, rgba(49,53,91,1) 10%, rgba(60,64,103,1) 47%, rgba(49,53,91,1) 85%);
   overflow: hidden;
 }
 #last-of-our-work img{
-  width: 600px;
-}
+  width: 60%;
 
+}
+#last-of-our-work .btn-link {
+  background-color: #31355B;
+  color:white;
+}
+#last-of-our-work .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+#last-of-our-work .project-description {
+  width: 60%;
+  margin: 12px auto;
+  height: 50%;
+  border-radius: 3px;
+  padding: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #45496b;
+}
 #contact-us{
   height: 100vh;
   background-color: #FFFFFF;
-}
-a {
-  color: white;
-}
-a:hover{
-  color: white;
-  text-decoration: none;
 }
 
 .example-of-work{
@@ -87,4 +150,9 @@ footer{
 .contact-us-image{
   width: 300px;
   margin: 10px 30%;
+}
+
+.btn-to-contact{
+   background-color: #385771;
+   color:white;
 }
