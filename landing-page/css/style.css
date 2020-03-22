@@ -7,7 +7,9 @@
 @import url("components/footer.css");
 @import url("components/navbar.css");
 
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Playfair Display';
   height: 100%;
@@ -158,6 +160,3 @@ a:hover{
 }
 
 /************************************ CONTACT US CSS ************************************/
-
-
-
