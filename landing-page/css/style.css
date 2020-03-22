@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Muli|Playfair+Display&display=swap');
 
 @import url("components/avatar.css");
 @import url("components/button.css");
@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  font-family: 'Playfair Display';
+  font-family: 'Muli';
   height: 100%;
   margin: 0;
 }
@@ -22,6 +22,7 @@ a:hover{
   color: white;
   text-decoration: none;
 }
+
 .wrapper {
   min-height: 100%;
 
@@ -29,146 +30,284 @@ a:hover{
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
 }
-
-
-#intro img{
-  width:450px;
-}
-
-#our-work{
-  color: white;
-  padding: 16px;
-  height: 100vh;
-  background: rgb(101,167,213);
-  background: linear-gradient(180deg, rgba(101,167,213,1) 10%, rgba(115,194,249,1) 47%, rgba(101,167,213,1) 85%);
-  overflow: hidden;
-}
-#our-work img{
-  width: 100%;
-  display: cover;
-}
-#our-work .btn-link {
-  background-color: #42a7e5;
-  color:white;
-}
-#our-work .project-description {
-  border-radius: 3px;
-  padding: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-color: #59aae0;
-}
-#our-work .btn-link:hover {
-  opacity: 0.7;
-  color:white;
-  text-decoration: none;
-}
-
-#more-of-our-work{
-  color: white;
-  height: 100vh;
-  background: rgb(124,204,147);
-  background: linear-gradient(180deg, rgba(124,204,147,1) 10%, rgba(128,228,157,1) 47%, rgba(124,204,147,1) 85%);
-}
-#more-of-our-work .project-description {
-  margin: 12px;
-  height: 50%;
-  border-radius: 3px;
-  padding: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-color: #6ae28c;
-}
-#more-of-our-work img {
-  width: 200px;
-}
-#more-of-our-work .btn-link {
-  background-color: #7ccc93;
-  color:white;
-}
-#more-of-our-work .btn-link:hover {
-  text-decoration: none;
-  opacity: 0.7;
-}
-#last-of-our-work{
-  color: white;
-  padding: 16px;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  background: rgb(81,89,172);
-  background: linear-gradient(45deg, rgba(81,89,172,1) 32%, rgba(61,68,134,1) 48%, rgba(49,53,91,1) 69%);
-  overflow: hidden;
-}
-#last-of-our-work img{
-  width: 60%;
-  object-fit: contain;
-}
-#last-of-our-work .btn-link {
-  /* background-color: #31355B; */
-  color:white;
-  padding: 1rem 3.5rem;
-  border-radius: 0;
-  border: 1px white solid;
-}
-#last-of-our-work .btn-link:hover {
-  text-decoration: none;
-  opacity: 0.7;
-  color:white;
-}
-#last-of-our-work .project-description {
-  /* width: 60%; */
-  /* margin: 12px auto; */
-  /* height: 50%; */
-  justify-content: space-between;
-  /* border-radius: 3px; */
-  /* padding: 8px; */
-  flex-direction: column;
-  display: flex;
-  /* align-items: center; */
-  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
-  /* background-color: #45496b; */
+.code-language-icon{
+  font-size: 42px;
 }
 .title-and-language{
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
-  /* justify-content: space-around; */
 }
 .title-and-language p {
   margin: 16px 0;
 }
 .catch-phrase{
+  font-family: "Open Sans";
   font-size: 34px;
 }
 .small-line{
   height: 3px;
   width: 10%;
   margin-top: -18px;
-  background-color: aliceblue;
+  background: rgb(229,240,237);
 }
 .project-title{
   font-size: 28px;
   margin-right: 22px;
 }
-.example-of-work{
-  display: flex;
-}
-
-
 
 
 /************************************ INTRO SECTION CSS ************************************/
 #intro {
   height: 100vh;
+  background-color: '#FDD5D5'
+}
+#intro img{
+  width:450px;
+}
+#intro img{
+  width: 20%;
 }
 
-.btn-to-contact{
-   background-color: #385771;
+.btn-projects{
+   background-color: #F66D6C;
    color:white;
 }
+.btn-projects:hover{
+   color:white;
+   opacity: 0.7;
+}
+.btn-contact{
+   background-color: '#FDD5D5';
+   color: #F66D6C;
+   border: 1px solid  #F66D6C;
+}
+.btn-contact:hover{
+   color: #F66D6C;
+   opacity: 0.7;
+}
 
-/************************************ INTRO SECTION CSS ************************************/
 
+/*****************************************************************************************/
+/************************************ PARQIT CSS **************************************/
+#parqit{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(84,222,226);
+  background: linear-gradient(45deg, rgba(84,222,226,1) 20%, rgba(73,206,209,1) 40%, rgba(31,174,177,1) 54%);
+  overflow: hidden;
+}
+#parqit img{
+  margin-left: auto;
+  margin-right: 10%;
+  width: 20%;
+  object-fit: contain;
+}
+#parqit .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#parqit .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#parqit .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+/*************************************************************************************/
+
+/************************************ CRWN CLOTHING CSS **************************************/
+#crwn-clothing{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(87,98,91);
+  background: linear-gradient(45deg, rgba(87,98,91,1) 21%, rgba(63,78,67,1) 44%, rgba(48,58,51,1) 65%);
+  overflow: hidden;
+}
+#crwn-clothing img{
+  margin-left: auto;
+  width: 40%;
+  object-fit: contain;
+}
+#crwn-clothing .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#crwn-clothing .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#crwn-clothing .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+/*************************************************************************************/
+
+/************************************ MARQIT CSS **************************************/
+#marqit{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(117,217,255);
+  background: linear-gradient(45deg, rgba(117,217,255,1) 16%, rgba(98,207,247,1) 32%, rgba(65,200,249,1) 57%);
+  overflow: hidden;
+}
+#marqit img{
+  margin-left: auto;
+  margin-right: 10%;
+  width: 20%;
+  object-fit: contain;
+}
+#marqit .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#marqit .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#marqit .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+/*************************************************************************************/
+
+/************************************ PRACTICO CSS ************************************/
+#practico{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(57,203,218);
+  background: linear-gradient(45deg, rgba(57,203,218,1) 21%, rgba(42,201,217,1) 34%, rgba(55,163,174,1) 57%);
+  overflow: hidden;
+}
+#practico .container{
+
+}
+#practico img{
+  margin-left: auto;
+  width: 40%;
+  object-fit: contain;
+}
+#practico .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#practico .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#practico .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+/*************************************************************************************/
+
+/************************************ BITRAWR CSS ************************************/
+#bitrawr{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(63,141,191);
+  background: linear-gradient(45deg, rgba(63,141,191,1) 29%, rgba(23,127,194,1) 38%, rgba(0,91,150,1) 57%);
+  overflow: hidden;
+}
+#bitrawr img{
+  margin-left: auto;
+  width: 40%;
+  object-fit: contain;
+}
+#bitrawr .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#bitrawr .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#bitrawr .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+<<<<<<< HEAD
+.example-of-work{
+  display: flex;
+}
+=======
+/*************************************************************************************/
+>>>>>>> 08e2645cfa361fcf9e88884c839cab1e76d74254
+
+/************************************ SIESTA FIESTA CSS ************************************/
+#siesta-fiesta{
+  color: white;
+  padding: 16px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgb(21,102,113);
+  background: linear-gradient(45deg, rgba(21,102,113,1) 20%, rgba(7,77,87,1) 44%, rgba(2,43,49,1) 65%);
+  overflow: hidden;
+}
+#siesta-fiesta img{
+  margin-left: auto;
+  width: 40%;
+  object-fit: contain;
+}
+#siesta-fiesta .project-description {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+#siesta-fiesta .btn-link {
+  color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
+}
+#siesta-fiesta .btn-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  color:white;
+}
+/*************************************************************************************/
 
 /************************************ CONTACT US CSS ************************************/
 #contact-us{
@@ -191,6 +330,7 @@ a:hover{
 .submit-form{
   background-color: #F67273;
 }
+<<<<<<< HEAD
 
 /************************************ CONTACT US CSS ************************************/
 
@@ -198,3 +338,6 @@ a:hover{
 @media(max-width: 1200px) { {
 
 }
+=======
+/***************************************************************************************/
+>>>>>>> 08e2645cfa361fcf9e88884c839cab1e76d74254
