@@ -27,13 +27,8 @@ a:hover{
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom: -50px;
 }
-.footer,
-.push {
-  height: 50px;
-}
-#intro {
-  height: 100vh;
-}
+
+
 #intro img{
 
   width:450px;
@@ -96,8 +91,8 @@ a:hover{
   color: white;
   padding: 16px;
   height: 100vh;
-  background: rgb(49,53,91);
-  background: linear-gradient(180deg, rgba(49,53,91,1) 10%, rgba(60,64,103,1) 47%, rgba(49,53,91,1) 85%);
+  background: rgb(81,89,172);
+  background: linear-gradient(45deg, rgba(81,89,172,1) 32%, rgba(61,68,134,1) 48%, rgba(49,53,91,1) 69%);
   overflow: hidden;
 }
 #last-of-our-work img{
@@ -122,37 +117,47 @@ a:hover{
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-color: #45496b;
 }
-#contact-us{
+
+
+
+
+
+/************************************ INTRO SECTION CSS ************************************/
+#intro {
   height: 100vh;
-  background-color: #FFFFFF;
-}
-
-.example-of-work{
-}
-
-.example-of-work img{
-  background-size: cover;
-  width: 80%;
-  border-radius: 3px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.form-container{
-  background-color: #F5F5F5;
-}
-footer{
-  background-color: #F5F5F5;
-}
-
-.submit-form{
-  background-color: #F67273;
-}
-.contact-us-image{
-  width: 300px;
-  margin: 10px 30%;
 }
 
 .btn-to-contact{
    background-color: #385771;
    color:white;
 }
+
+/************************************ INTRO SECTION CSS ************************************/
+
+
+/************************************ CONTACT US CSS ************************************/
+#contact-us{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.contact-us-image{
+  width: 300px;
+  margin: 10px 30%;
+}
+
+
+
+
+.form-container{
+  background-color: #F5F5F5;
+}
+
+.submit-form{
+  background-color: #F67273;
+}
+
+/************************************ CONTACT US CSS ************************************/
+
+
+
