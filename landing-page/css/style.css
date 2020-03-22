@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Muli|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Playfair+Display|Muli|Playfair+Display&display=swap');
 
 @import url("components/avatar.css");
 @import url("components/button.css");
@@ -38,7 +38,8 @@ a:hover{
   align-items: center;
 }
 .title-and-language p {
-  margin: 16px 0;
+  margin: 16px 16px 0 auto;
+  padding-bottom: 24px;
 }
 .catch-phrase{
   font-family: "Open Sans";
@@ -55,17 +56,14 @@ a:hover{
   margin-right: 22px;
 }
 
-
 /************************************ INTRO SECTION CSS ************************************/
 #intro {
   height: 100vh;
   background-color: '#FDD5D5'
 }
 #intro img{
-  width:450px;
-}
-#intro img{
-  width: 20%;
+  margin-top: 16px;
+  width: 18%;
 }
 
 .btn-projects{
@@ -88,6 +86,28 @@ a:hover{
 
 
 /*****************************************************************************************/
+
+/************************************ TESTIMONIAL CSS **************************************/
+.testimonial{
+  height: 70vh;
+  padding: 20px 25%;
+}
+.testimonial-avatar{
+  margin-bottom: 32px;
+  width: 84px;
+  border-radius: 50%;
+}
+.testimonial h3 {
+  font-family: 'Playfair Display';
+}
+.testimonial h5 {
+  font-size: 16px;
+}
+.name-of-testimonial{
+  color: gray;
+}
+/*****************************************************************************************/
+
 /************************************ PARQIT CSS **************************************/
 #parqit{
   color: white;
@@ -322,6 +342,11 @@ a:hover{
 }
 
 .submit-form{
+  color: white;
   background-color: #F67273;
+}
+.submit-form:hover{
+  color: white;
+  opacity: 0.7;
 }
 /***************************************************************************************/
