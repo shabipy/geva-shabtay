@@ -150,6 +150,9 @@ a:hover{
   font-size: 28px;
   margin-right: 22px;
 }
+.example-of-work{
+  display: flex;
+}
 
 
 
@@ -190,3 +193,8 @@ a:hover{
 }
 
 /************************************ CONTACT US CSS ************************************/
+
+
+@media(max-width: 1200px) { {
+
+}
