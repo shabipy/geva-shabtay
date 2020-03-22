@@ -30,7 +30,6 @@ a:hover{
 
 
 #intro img{
-
   width:450px;
 }
 
@@ -91,17 +90,23 @@ a:hover{
   color: white;
   padding: 16px;
   height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
   background: rgb(81,89,172);
   background: linear-gradient(45deg, rgba(81,89,172,1) 32%, rgba(61,68,134,1) 48%, rgba(49,53,91,1) 69%);
   overflow: hidden;
 }
 #last-of-our-work img{
   width: 60%;
-
+  object-fit: contain;
 }
 #last-of-our-work .btn-link {
-  background-color: #31355B;
+  /* background-color: #31355B; */
   color:white;
+  padding: 1rem 3.5rem;
+  border-radius: 0;
+  border: 1px white solid;
 }
 #last-of-our-work .btn-link:hover {
   text-decoration: none;
@@ -109,15 +114,40 @@ a:hover{
   color:white;
 }
 #last-of-our-work .project-description {
-  width: 60%;
-  margin: 12px auto;
-  height: 50%;
-  border-radius: 3px;
-  padding: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-color: #45496b;
+  /* width: 60%; */
+  /* margin: 12px auto; */
+  /* height: 50%; */
+  justify-content: space-between;
+  /* border-radius: 3px; */
+  /* padding: 8px; */
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+  /* background-color: #45496b; */
 }
-
+.title-and-language{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.title-and-language p {
+  margin: 16px 0;
+}
+.catch-phrase{
+  font-size: 34px;
+}
+.small-line{
+  height: 3px;
+  width: 10%;
+  margin-top: -18px;
+  background-color: aliceblue;
+}
+.project-title{
+  font-size: 28px;
+  margin-right: 22px;
+}
 
 
 
@@ -158,6 +188,3 @@ a:hover{
 }
 
 /************************************ CONTACT US CSS ************************************/
-
-
-
