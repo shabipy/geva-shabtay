@@ -35,7 +35,7 @@
 
   .omer {
     right:310px;
-    bottom: 915px;
+    bottom: 930px;
     position: relative;
     padding: 0;
     margin: 0;
@@ -43,13 +43,17 @@
   }
   .omri {
     left: 345px;
-    bottom: 110px;
+    bottom: 125px;
     position: relative;
     padding: 0;
     margin: 0;
     width: 500px;
   }
+  .mobile-head{
+    display: none;
+  }
 }
+/********************************************  Mobile  ********************************************/
 @media only screen and (max-width: 768px) {
   .banner-content{
     padding: 150px 0 0 0;
@@ -77,4 +81,21 @@
   .omri {
     display:none;
   }
+  .mobile-head-omer {
+    right:10px;
+    top: 10px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  .mobile-head-omri {
+    right: 5px;
+    top: 10px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+
 }
