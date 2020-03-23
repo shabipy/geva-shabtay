@@ -59,14 +59,22 @@ a:hover{
 
 /************************************ INTRO SECTION CSS ************************************/
 #intro {
-  height: 100vh;
-  background-color: '#FDD5D5'
-}
-#intro img{
-  margin-top: 16px;
-  width: 18%;
+  height: 80vh;
+  background-color: '#FDD5D5';
 }
 
+@media only screen and (min-width: 768px) {
+  #intro img{
+    margin-top: 16px;
+    width: 18%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #intro img{
+    margin-top: 16px;
+    width: 30%;
+  }
+}
 .btn-projects{
    background-color: #F66D6C;
    color:white;
@@ -89,21 +97,38 @@ a:hover{
 /*****************************************************************************************/
 
 /************************************ TESTIMONIAL CSS **************************************/
-.testimonial{
-  height: 70vh;
-  padding: 20px 25%;
-}
+
 .testimonial-avatar{
   margin-bottom: 32px;
   width: 84px;
   border-radius: 50%;
 }
-.testimonial h3 {
-  font-family: 'Playfair Display';
+@media only screen and (min-width: 768px) {
+  .testimonial{
+    height: 70vh;
+    padding: 20px 25%;
+  }
+  .testimonial h3 {
+    font-family: 'Playfair Display';
+  }
+  .testimonial h5 {
+    font-size: 16px;
+  }
 }
-.testimonial h5 {
-  font-size: 16px;
+@media only screen and (max-width: 768px) {
+  .testimonial{
+    height: 70vh;
+    padding: 20px 20%;
+  }
+  .testimonial h3 {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+  }
+  .testimonial h5 {
+    font-size: 16px;
+  }
 }
+
 .name-of-testimonial{
   color: gray;
 }
@@ -330,12 +355,18 @@ a:hover{
   background-color: #FFFFFF;
 }
 
-.contact-us-image{
-  width: 300px;
-  margin: 10px 30%;
+@media only screen and (min-width: 768px) {
+  .contact-us-image{
+    width: 300px;
+    margin: 10px 30%;
+  }
 }
-
-
+@media only screen and (max-width: 768px) {
+  .contact-us-image{
+    width: 70%;
+    margin: 10px 15%;
+  }
+}
 
 
 .form-container{
