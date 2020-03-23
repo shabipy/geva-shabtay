@@ -37,10 +37,11 @@ a:hover{
 .title-and-language{
   display: flex;
   align-items: center;
+  padding-bottom: 24px;
 }
+
 .title-and-language p {
   margin: 16px 16px 0 auto;
-  padding-bottom: 24px;
 }
 .catch-phrase{
   font-family: "Open Sans";
@@ -56,10 +57,26 @@ a:hover{
   font-size: 28px;
   margin-right: 22px;
 }
+.intro-contant{
+  padding-top: 10vh;
+}
+.example-of-work{
+  display: flex;
+}
+.practico-computer{
+
+}
+.crown-clothing-computer{
+
+}
+.code-language{
+  padding-bottom: 20px;
+}
 
 /************************************ INTRO SECTION CSS ************************************/
 #intro {
   height: 80vh;
+  margin-bottom: 70px;
   background-color: '#FDD5D5';
 }
 
@@ -74,10 +91,47 @@ a:hover{
     margin-top: 16px;
     width: 30%;
   }
+  .example-of-work{
+    flex-direction: column;
+  }
+  .title-and-language p{
+    margin: 16px 10px 0 5px;
+  }
+  .practico-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .crown-clothing-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .marqit-computer{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin: 65px auto;
+    width: 35%!important;
+  }
+  .parqit-computer{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin: 65px auto;
+    width: 35%!important;
+  }
+  .siesta-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .bitrawr-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
 }
 .btn-projects{
    background-color: #F66D6C;
    color:white;
+   margin-top: 48px;
+   margin-bottom: 0;
+   margin-right: 4px;
 }
 .btn-projects:hover{
    color:white;
@@ -86,6 +140,9 @@ a:hover{
 .btn-contact{
    background-color: '#FDD5D5';
    color: #F66D6C;
+   margin-top: 48px;
+   margin-bottom: 0;
+   margin-left: 4px;
    border: 1px solid  #F66D6C;
 }
 .btn-contact:hover{
@@ -105,20 +162,7 @@ a:hover{
 }
 @media only screen and (min-width: 768px) {
   .testimonial{
-    height: 70vh;
-    padding: 20px 25%;
-  }
-  .testimonial h3 {
-    font-family: 'Playfair Display';
-  }
-  .testimonial h5 {
-    font-size: 16px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .testimonial{
-    height: 70vh;
-    padding: 20px 20%;
+    padding: 10vh 20%;
   }
   .testimonial h3 {
     font-family: 'Playfair Display';
@@ -126,6 +170,50 @@ a:hover{
   }
   .testimonial h5 {
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #intro img{
+    width: 60%;
+  }
+  .example-of-work{
+    flex-direction: column;
+  }
+  .practico-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .crown-clothing-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .marqit-computer{
+    width: 42% !important;
+    margin: 65px auto;
+  }
+  .parqit-computer{
+    width: 42% !important;
+    margin: 65px auto;
+  }
+  .siesta-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .bitrawr-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .form-container{
+    padding: 12px !important;
+  }
+  #intro{
+    height: 100vh;
+  }
+  .btn-contact{
+    margin-top: 24px;
+  }
+  .testimonial{
+    padding: 10vh 5%;
   }
 }
 
@@ -371,6 +459,7 @@ a:hover{
 
 .form-container{
   background-color: #F5F5F5;
+  padding: 48px;
 }
 
 .submit-form{
