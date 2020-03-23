@@ -75,7 +75,7 @@ a:hover{
 
 /************************************ INTRO SECTION CSS ************************************/
 #intro {
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 70px;
   background-color: '#FDD5D5';
 }
@@ -90,6 +90,11 @@ a:hover{
   #intro img{
     margin-top: 16px;
     width: 30%;
+  }
+  .btn-link{
+    display: table !important;
+    margin: 0 auto !important;
+    margin-top: 34px !important;
   }
   .example-of-work{
     flex-direction: column;
