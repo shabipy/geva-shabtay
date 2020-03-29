@@ -1,0 +1,89 @@
+#intro {
+  height: 100vh;
+  margin-bottom: 70px;
+  background-color: '#FDD5D5';
+}
+
+@media only screen and (min-width: 768px) {
+  #intro img{
+    margin-top: 16px;
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #intro{
+  overflow: hidden;
+
+  }
+  #intro img{
+    margin-top: 16px;
+    width: 30%;
+  }
+  #intro h5{
+    font-size: 16px;
+  }
+
+  .btn-link{
+    display: table !important;
+    margin: 0 auto !important;
+    margin-top: 34px !important;
+  }
+  .example-of-work{
+    flex-direction: column;
+  }
+  .title-and-language p{
+    margin: 16px 10px 0 5px;
+  }
+  .practico-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .crown-clothing-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .marqit-computer{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin: 65px auto;
+    width: 35%!important;
+  }
+  .parqit-computer{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin: 65px auto;
+    width: 35%!important;
+  }
+  .siesta-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+  .bitrawr-computer{
+    margin: 65px auto;
+    width: 70%!important;
+  }
+}
+.btn-projects{
+   background-color: #F66D6C;
+   color:white;
+   margin-top: 48px;
+   margin-bottom: 0;
+   margin-right: 4px;
+}
+.btn-projects:hover{
+   color:white;
+   opacity: 0.7;
+}
+.btn-contact{
+   background-color: '#FDD5D5';
+   color: #F66D6C;
+   margin-top: 48px;
+   margin-bottom: 0;
+   margin-left: 4px;
+   border: 1px solid  #F66D6C;
+}
+.btn-contact:hover{
+   color: #F66D6C;
+   opacity: 0.7;
+}

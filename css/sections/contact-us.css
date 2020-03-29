@@ -1,0 +1,33 @@
+
+#contact-us{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-us-image{
+    width: 300px;
+    margin: 10px 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-us-image{
+    width: 70%;
+    margin: 10px 15%;
+  }
+}
+
+
+.form-container{
+  background-color: #F5F5F5;
+  padding: 48px;
+}
+
+.submit-form{
+  color: white;
+  background-color: #F67273;
+}
+.submit-form:hover{
+  color: white;
+  opacity: 0.7;
+}

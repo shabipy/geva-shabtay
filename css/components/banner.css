@@ -8,7 +8,7 @@
   top: 0;
   overflow: hidden;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1050px) {
   .banner-X{
     display: none;
   }
@@ -16,8 +16,9 @@
     padding: 150px 0 0 0;
 
     text-align: center;
-
   }
+
+
   .banner h1 {
     margin: 10px auto;
     color: #F8C587;
@@ -44,6 +45,53 @@
   .omri {
     left: 345px;
     bottom: 125px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+  }
+  .mobile-head{
+    display: none;
+  }
+}
+/********************************************  Tablet  ********************************************/
+@media only screen and (max-width: 1050px) {
+  .banner-X{
+    display: none;
+  }
+  .banner-content{
+    padding: 150px 0 0 0;
+
+    text-align: center;
+  }
+
+
+  .banner h1 {
+    margin: 100px auto;
+    color: #F8C587;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 140px;
+    font-weight: bold;
+  }
+
+  .banner p {
+    font-size: 45px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+  .omer {
+    right:270px;
+    bottom: 800px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 647px;
+  }
+  .omri {
+    left: 300px;
+    /*bottom: -100px;*/
     position: relative;
     padding: 0;
     margin: 0;

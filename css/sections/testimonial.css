@@ -1,0 +1,93 @@
+.testimonial-avatar{
+  margin-bottom: 32px;
+  width: 84px;
+  border-radius: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .testimonial{
+    padding: 10vh 20%;
+  }
+  .testimonial h3 {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+  }
+  .testimonial h5 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #intro img{
+    width: 60%;
+  }
+  .example-of-work{
+    flex-direction: column;
+  }
+  .practico-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  #practico{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  #crwn-clothing{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  #marqit{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  #parqit{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  #siesta-fiesta{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  #bitrawr{
+    height: unset !important;
+    padding: 65px 0 !important;
+  }
+  .intro-text{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .crown-clothing-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .marqit-computer{
+    width: 42% !important;
+    margin: 65px auto;
+  }
+  .parqit-computer{
+    width: 42% !important;
+    margin: 65px auto;
+  }
+  .siesta-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .bitrawr-computer{
+    width: 100% !important;
+    margin: 65px auto;
+  }
+  .form-container{
+    padding: 12px !important;
+  }
+  #intro{
+    height: 100vh;
+  }
+  .btn-contact{
+    margin-top: 24px;
+  }
+  .testimonial{
+    padding: 10vh 5%;
+  }
+}
+
+.name-of-testimonial{
+  color: gray;
+}
