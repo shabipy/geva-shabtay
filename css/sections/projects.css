@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
-
+.catch-phrase{
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+}
 /************************************ PARQIT CSS **************************************/
 #parqit{
   color: white;
