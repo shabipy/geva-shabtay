@@ -1,5 +1,4 @@
 .footer {
-
   background: #F5F5F5;
   display: flex;
   align-items: center;
@@ -27,7 +26,7 @@
 }
 .footer,
 .push {
-  /* height: 50px; */
+   /*height: 50px;*/
 }
 @media only screen and (max-width: 480px) {
 .footer-copyright{
