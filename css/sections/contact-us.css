@@ -9,6 +9,13 @@
     width: 300px;
     margin: 10px 30%;
   }
+  .name-and-email{
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-info-field{
+    width: 48%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .contact-us-image{
