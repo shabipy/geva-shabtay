@@ -23,6 +23,110 @@ a:hover{
   text-decoration: none;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+.banner {
+  font-family: 'Open Sans';
+  background: rgb(247,97,96);
+  background: linear-gradient(180deg, rgba(247,97,96,1) 10%, rgba(245,115,115,1) 47%, rgba(247,97,96,1) 85%);
+  height: 100vh;
+  top: 0;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1050px) {
+  .banner-X{
+    display: none;
+  }
+  .banner-content{
+    padding: 150px 0 0 0;
+
+    text-align: center;
+  }
+
+
+  .banner h1 {
+    margin: 10px auto;
+    color: #F8C587;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 120px;
+    font-weight: bold;
+  }
+
+  .banner p {
+    font-size: 30px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+  .omer {
+    right:603px;
+    bottom: 148px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 439px;
+  }
+  .omri {
+    left: 565px;
+    bottom: 125px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+  }
+  .mobile-head{
+    display: none;
+  }
+}
+
+
+/********************************************  Mobile  ********************************************/
+@media only screen and (max-width: 768px) {
+  .banner-content{
+    padding: 150px 0 0 0;
+
+    text-align: center;
+
+  }
+  .banner h1 {
+    margin: 10px auto;
+    color: #F8C587;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .banner p {
+    font-size: 24px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  .omer {
+    display: none;
+  }
+  .omri {
+    display:none;
+  }
+  .mobile-head-omer {
+    right:10px;
+    top: 10px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  .mobile-head-omri {
+    right: 5px;
+    top: 10px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+
+}
 
 .wrapper {
   min-height: 100%;
@@ -274,8 +378,8 @@ a:hover{
   overflow: hidden;
   display: flex;
   align-items: center;
-  background: rgb(87,98,91);
-  background: linear-gradient(45deg, rgba(87,98,91,1) 21%, rgba(63,78,67,1) 44%, rgba(48,58,51,1) 65%);
+  background: rgb(45,45,45);
+  background: linear-gradient(45deg, rgba(45,45,45,1) 20%, rgba(60,60,60,1) 50%, rgba(79,79,79,1) 64%, rgba(93,93,93,1) 76%, rgba(93,93,93,1) 86%);
   overflow: hidden;
 }
 #crwn-clothing img{
